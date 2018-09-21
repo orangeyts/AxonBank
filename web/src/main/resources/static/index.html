@@ -38,7 +38,7 @@
             <tr>
                 <th>#</th>
                 <th>Balance</th>
-                <th>Overdraft Limit</th>
+                <th>透支限额</th>
                 <th></th>
             </tr>
             </thead>
@@ -50,19 +50,19 @@
                 <td>
                     <button ng-click="deposit(bankAccount.axonBankAccountId)" class="btn btn-sm btn-primary" type="submit">
                         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                        Deposit
+                        存钱
                     </button>
                     <button ng-click="withdraw(bankAccount.axonBankAccountId)" class="btn btn-sm btn-success" type="submit">
                         <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
-                        Withdraw
+                        取钱
                     </button>
                     <button ng-click="transfer(bankAccount.axonBankAccountId)" class="btn btn-sm btn-info" type="submit">
                         <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
-                        Transfer
+                        转账
                     </button>
                     <button ng-click="bankTransfers(bankAccount.axonBankAccountId)" class="btn btn-sm btn-warning" type="submit">
                         <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                        Bank Transfers
+                        转账详情
                     </button>
                 </td>
             </tr>
