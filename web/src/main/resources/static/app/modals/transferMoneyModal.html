@@ -3,12 +3,12 @@
         <button ng-click="cancel()" type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
-        <h3 class="modal-title" id="modal-title">Transfer Money</h3>
+        <h3 class="modal-title" id="modal-title">转账金额</h3>
     </div>
     <div class="modal-body" id="modal-body">
         <form>
             <div class="form-group">
-                <label for="destinationBankAccount">Destination Bank Account</label>
+                <label for="destinationBankAccount">目标账户</label>
                 <select ng-model="bankTransfer.destinationBankAccountId" class="form-control" name="destinationBankAccount"
                         id="destinationBankAccount">
                     <option ng-if="bankTransfer.sourceBankAccountId != bankAccount.axonBankAccountId"

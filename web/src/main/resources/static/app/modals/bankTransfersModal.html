@@ -9,10 +9,10 @@
         <table class="table table-striped table-bordered table-condensed">
             <thead>
             <tr>
-                <th>Source</th>
-                <th>Destination</th>
-                <th>Amount</th>
-                <th>Status</th>
+                <th>原账户</th>
+                <th>目标账户</th>
+                <th>金额</th>
+                <th>状态</th>
             </tr>
             </thead>
             <tbody>
@@ -23,7 +23,7 @@
                 <td>{{bankTransfer.status}}</td>
             </tr>
             <tr ng-if="bankTransfers.length == 0">
-                <td colspan="4">This bank account does not have any bank transfers</td>
+                <td colspan="4">此银行账户没有任何银行转账</td>
             </tr>
             </tbody>
         </table>

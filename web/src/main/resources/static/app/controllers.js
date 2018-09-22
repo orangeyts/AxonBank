@@ -77,6 +77,10 @@ angular.module('axonBank')
             });
         };
 
+        /**
+        1 连接webSocket
+        2 获取所有银行账户列表
+        */
         BankAccountService.connect()
             .then(function () {
                 BankAccountService.loadBankAccounts()
